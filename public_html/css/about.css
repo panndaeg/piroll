@@ -1,0 +1,140 @@
+.nav_block,.nav_block > .fixed_width_container{
+    background: white;
+}
+
+/* amelia */
+.amelia {
+    background: url(../images/amelia.jpg) no-repeat 0 0;
+    background-size: 100% auto;
+}
+
+.amelia  h1 {
+    font: bold 38px/60px 'Montserrat', sans-serif;
+    letter-spacing: 0.4px;
+    color: white;
+    text-align: center;
+}
+
+.amelia .fixed_width_container {
+    padding-top: 115px;
+    padding-bottom: 85px;
+    text-align: center;
+}
+
+.amelia .fixed_width_container > p {
+    font: normal 18px/28px 'Nunito Sans', sans-serif;
+    letter-spacing: 0.1px;
+    color: white;
+	opacity: 0.7;
+    width: 515px;
+    margin: 0 auto;
+}
+
+
+/* free block */
+
+.free_block {
+    background-color: #10c9c3;
+}
+
+.free_block .fixed_width_container .free1,
+.free_block .fixed_width_container .free2,
+.free_block .fixed_width_container .free3,
+.free_block .fixed_width_container .free4 {
+    width: 277px;
+    float: left;
+    padding: 100px 5px;
+    overflow: hidden;
+}
+
+.free_block .fixed_width_container .free2 {
+    padding-left: 15px;
+    width: 267px;
+}
+
+.free_block .fixed_width_container .free1 img,
+.free_block .fixed_width_container .free2 img,
+.free_block .fixed_width_container .free3 img,
+.free_block .fixed_width_container .free4 img {
+    display: block;
+    float: left;
+    width: 41px;
+    padding-top: 10px;
+    margin-right: 36px;
+}
+
+.free_block .fixed_width_container .free1 p,
+.free_block .fixed_width_container .free2 p,
+.free_block .fixed_width_container .free3 p,
+.free_block .fixed_width_container .free4 p {
+    font: bold 12px/30px 'Montserrat', sans-serif;
+    letter-spacing: 1.2px;
+    color: #fff;
+    margin-left: 45px;
+    text-transform: uppercase;
+}
+
+.free_block .fixed_width_container .free1 p.number,
+.free_block .fixed_width_container .free2 p.number,
+.free_block .fixed_width_container .free3 p.number,
+.free_block .fixed_width_container .free4 p.number {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+
+/* about me */
+
+.about_me {
+    background-color: #f5f5f5;
+}
+
+.about_me .fixed_width_container .about_left {
+    width: 683px;
+    float: left;
+    padding: 285px 0;
+    background: url(../images/about-left.jpg) no-repeat  0 0;
+    background-size: 683px auto;
+}
+
+.about_me .fixed_width_container .about_right {
+    width: 457px;
+    float: right;
+    padding-top: 105px;
+    padding-bottom: 135px;
+    padding-left: 30px;
+}
+.about_me .fixed_width_container .about_right p {
+    font: normal 16px/24px 'Nunito Sans', sans-serif;
+    letter-spacing: 0.1px;
+    color: #787878;
+}
+
+.about_me .fixed_width_container .about_right p {
+    margin-bottom: 30px;
+}
+
+.about_me .fixed_width_container .about_right img {
+    display: block;
+}
+
+/* project */
+
+.project .fixed_width_container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.project .fixed_width_container > h2 {
+    margin-bottom: 20px;
+}
+
+.project .fixed_width_container p {
+    font: normal 16px/24px 'Nunito Sans', sans-serif;
+    letter-spacing: 0.1px;
+    color: #787878;
+    width: 540px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
