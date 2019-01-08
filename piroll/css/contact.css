@@ -1,0 +1,124 @@
+
+header,
+header > .fixed_width_container {
+    background: #fff;
+}
+
+/* contact info */
+
+.contact_info {
+    background-color: white;
+}
+
+.contact_info {
+    background-color: #e2e2e2;
+}
+
+.contact_info .fixed_width_container {
+    padding-top: 100px;
+    padding-bottom: 99px;
+}
+
+.contact_info .fixed_width_container .contact_left {
+    width: 460px;
+    padding: 0 10px;
+    float: left;
+}
+
+.contact_info .fixed_width_container .contact_left p {
+    font: normal 16px/28px 'Nunito Sans', sans-serif;
+    letter-spacing: 0.1px;
+    color: #787878;
+}
+
+.contact_info .fixed_width_container .contact_left p.text_one {
+    width: 375px;
+    margin-bottom: 28px;
+}
+
+.contact_info .fixed_width_container .contact_left p span {
+    color: #000;
+    font-weight: bold;
+}
+
+.contact_info .fixed_width_container .contact_left p a {
+    color: #787878;
+}
+
+.contact_info .fixed_width_container .contact_left p a:hover {
+    color: #000;
+}
+
+.contact_info .fixed_width_container .contact_right {
+    width: 680px;
+    float: right;
+}
+
+.contact_info .fixed_width_container form input {
+    border: none;
+    padding: 0 10px;
+    font: normal 15px/24px 'Nunito Sans', sans-serif;
+    letter-spacing: 0.1px;
+    color: #787878;
+}
+
+.contact_info .fixed_width_container form .name,
+.contact_info .fixed_width_container form .email {
+    width: 300px;
+    height: 48px;
+}
+
+.contact_info .fixed_width_container form .name {
+    margin-right: 30px;
+}
+
+.contact_info .fixed_width_container form .title {
+    width: 650px;
+    height: 48px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 650px;
+    height: 160px;
+    border: none;
+    padding: 0 10px;
+    padding-top: 10px;
+    font: normal 15px/24px 'Nunito Sans', sans-serif;
+    letter-spacing: 0.1px;
+    color: #787878;
+    resize: none;
+}
+
+.contact_info .fixed_width_container form .button {
+    color: #fff;
+    font-weight: bold;
+    height: 54px;
+}
+
+.contact_info .fixed_width_container form .button:hover {
+    color: #10c9c3;
+    background-color: #fff;
+}
+
+.contact_info .fixed_width_container .map {
+    position: relative;
+    width: 1170px;
+    max-height: 470px;
+    margin-top: 100px;
+}
+
+.contact_info .fixed_width_container .map > img.pointer {
+    width: 22px;
+    height: 29px;
+    position: absolute;
+    top: 200px;
+    right: 550px;
+}
+
+.contact_info .fixed_width_container .map > img {
+    width: 1170px;
+    height: 470px;
+}
+
